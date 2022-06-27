@@ -71,40 +71,40 @@ const ikiapi = "FuckBitch"
 const chrisapi = "IzumiBot"
 
 // SETTING BOT AND OWNER //
-const nobot = "37259886749" // Ganti No Bot Kalian
-const namabot = "Izumi MD" // Ganti Nama Bot Kalian
-const nameown = "Christian ID" // Ganti Nama Kalian
-const numown = "0859-2116-5857" // Ganti Nomor Kalian
-const nameowner = "Christian" // Ganti Nama Kalian
-const footer = "Izumi MD 2022" // Ganti Nama Bot Kalian
-const capt = "*By Izumi Bot MD*" // Ganti Nama Bot Kalian
-const grup = "https://chat.whatsapp.com/LsNzi7PDERyB9xIlW0F8Eq" // Ganti Link Group Kalian
-const nomorown = "https://wa.me/6285921165857" // Ganti Nomor Kalian
+const nobot = "0813-7688-4803" // Ganti No Bot Kalian
+const namabot = "MallBot" // Ganti Nama Bot Kalian
+const nameown = "Mall" // Ganti Nama Kalian
+const numown = "0895-1635-3968" // Ganti Nomor Kalian
+const nameowner = "Mall" // Ganti Nama Kalian
+const footer = "MallBot" // Ganti Nama Bot Kalian
+const capt = "*By MallBot*" // Ganti Nama Bot Kalian
+const grup = "-" // Ganti Link Group Kalian
+const nomorown = "https://wa.me/6289516353968" // Ganti Nomor Kalian
 const note = "*_Bot Ini Masih Dalam Pengembangan Jika Ada Fitur Yang Eror Silakan Hubungi Owner!!!_*" // Kalau Mau Ganti Aja
-const namagrup = "Group Izumi MD" // Ubah Nama Group Mu
+const namagrup = "-" // Ubah Nama Group Mu
 
 // Setting Donasi
-const gopay = "0813-2850-7885" // Ganti Nomor Gopay Mu
-const pulsa = "0813-2850-7885" // Ganti No Pulsa Mu
-const insta = "chris.tianid" // Ganti Nama IG Mu
-const github = "TianBot1" // Ganti Nama Github Mu
-const linkdonasi = "https://telegra.ph/file/b7f1243d43509983f3230.jpg" // Ganti Link Qris Mu
+const gopay = "0895-1635-3968" // Ganti Nomor Gopay Mu
+const pulsa = "0895-1635-3968" // Ganti No Pulsa Mu
+const insta = "xzdk.m" // Ganti Nama IG Mu
+const github = "malgtps12" // Ganti Nama Github Mu
+const linkdonasi = "-" // Ganti Link Qris Mu
 
 // Setting SewaBot Ubah Harga Sesuai Harga Mu//
-const qris = "https://telegra.ph/file/b7f1243d43509983f3230.jpg"
-const nomor = "wa.me/6285921165857"
+const qris = "-"
+const nomor = "wa.me/6289516353968"
 const tujuhhari = "5.000"
 const tigapuluhhari = "10.000"
 const setahun = "20.000"
 const permanen = "30.000"
 
 //Setting Diamond FF | Ubah Harga Diamond Sesuai Kemauan mu//
-const diamondsatu = "50 💎 = 8.000"
-const diamonddua = "70 💎 = 10.000"
-const diamondtiga = "100 💎 = 15.000"
-const diamondempat = "140 💎 = 20.000"
-const diamondlima = "355 💎 = 50.000"
-const diamondenam = "720 💎 = 100.000"
+const diamondsatu = "50 ðŸ’Ž = 8.000"
+const diamonddua = "70 ðŸ’Ž = 10.000"
+const diamondtiga = "100 ðŸ’Ž = 15.000"
+const diamondempat = "140 ðŸ’Ž = 20.000"
+const diamondlima = "355 ðŸ’Ž = 50.000"
+const diamondenam = "720 ðŸ’Ž = 100.000"
 
 //Setting Rekber // Lu Ubah Aja Soalnya Gw Bukan Anak JB:v //
 const rekbera = "0-49K : 5K"
@@ -117,7 +117,7 @@ const rekberg = "500-699K : 40K"
 const rekberh = "700-1JT : 50K"
 
 // Setting Payment 
-const via = "ShoopePay, Qris, Gopay" // Terserah Mau Payment Apa Aja
+const via = "Pulsa, Dana, Gopay" // Terserah Mau Payment Apa Aja
 
 // Exif
 const Exif = require("../lib/exif")
@@ -157,7 +157,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const chats = (type === 'conversation' && msg.message.conversation) ? msg.message.conversation : (type == 'imageMessage') && msg.message.imageMessage.caption ? msg.message.imageMessage.caption : (type == 'documentMessage') && msg.message.documentMessage.caption ? msg.message.documentMessage.caption : (type == 'videoMessage') && msg.message.videoMessage.caption ? msg.message.videoMessage.caption : (type == 'extendedTextMessage') && msg.message.extendedTextMessage.text ? msg.message.extendedTextMessage.text : (type == 'buttonsResponseMessage' && msg.message.buttonsResponseMessage.selectedButtonId) ? msg.message.buttonsResponseMessage.selectedButtonId : (type == 'templateButtonReplyMessage') && msg.message.templateButtonReplyMessage.selectedId ? msg.message.templateButtonReplyMessage.selectedId : ''
 		const toJSON = j => JSON.stringify(j, null,'\t')
 		if (conn.multi) {
-			var prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
+			var prefix = /^[Â°â€¢Ï€Ã·Ã—Â¶âˆ†Â£Â¢â‚¬Â¥Â®â„¢âœ“_=|~!?#$%^&.+-,\/\\Â©^]/.test(chats) ? chats.match(/^[Â°â€¢Ï€Ã·Ã—Â¶âˆ†Â£Â¢â‚¬Â¥Â®â„¢âœ“_=|~!?#$%^&.+-,\/\\Â©^]/gi) : '#'
 		} else {
 			if (conn.nopref) {
 				prefix = ''
@@ -256,12 +256,12 @@ module.exports = async(conn, msg, m, setting, store) => {
            var url = await yts(query)
            url = url.videos[0].url
            hxz.youtube(url).then(async(data) => {
-             /*var button = [{ buttonId: `/ytmp3 ${url}`, buttonText: { displayText: `🎵 Audio (${data.size_mp3})` }, type: 1 }, { buttonId: `/ytmp4 ${url}`, buttonText: { displayText: `🎥 Video (${data.size})` }, type: 1 }]*/
-             /*conn.sendMessage(from, { caption: `*Title :* ${data.title}\n*Quality :* ${data.quality}\n*Url :* https://youtu.be/${data.id}`, location: { jpegThumbnail: await getBuffer(data.thumb) }, buttons: button, footer: 'Pilih Salah Satu Button Dibawah⬇️', mentions: [sender] })*/
+             /*var button = [{ buttonId: `/ytmp3 ${url}`, buttonText: { displayText: `ðŸŽµ Audio (${data.size_mp3})` }, type: 1 }, { buttonId: `/ytmp4 ${url}`, buttonText: { displayText: `ðŸŽ¥ Video (${data.size})` }, type: 1 }]*/
+             /*conn.sendMessage(from, { caption: `*Title :* ${data.title}\n*Quality :* ${data.quality}\n*Url :* https://youtu.be/${data.id}`, location: { jpegThumbnail: await getBuffer(data.thumb) }, buttons: button, footer: 'Pilih Salah Satu Button Dibawahâ¬‡ï¸', mentions: [sender] })*/
            var button = [
 		        	{ urlButton: { displayText: `Source`, url : `https://youtu.be/${data.id}` } },
-	         		{ quickReplyButton: { displayText: `🎵 Audio (${data.size_mp3})`, id: `${prefix}ytmp3 ${url}` } },
-	         		{ quickReplyButton: { displayText: `🎥 Video (${data.size})`, id: `${prefix}ytmp4 ${url}` } },
+	         		{ quickReplyButton: { displayText: `ðŸŽµ Audio (${data.size_mp3})`, id: `${prefix}ytmp3 ${url}` } },
+	         		{ quickReplyButton: { displayText: `ðŸŽ¥ Video (${data.size})`, id: `${prefix}ytmp4 ${url}` } },
 		]
              conn.sendMessage(from, { caption: `*Title :* ${data.title}\n*Quality :* ${data.quality}\n*Url :* https://youtu.be/${data.id}`, location: { jpegThumbnail: await getBuffer(data.thumb) }, templateButtons: button, footer: 'Pilih Salah Satu Button Dibawah', mentions: [sender]} )
            }).catch((e) => {
@@ -325,13 +325,13 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const buttonsDefault = [
 			{ urlButton: { displayText: `${namagrup}`, url : `${grup}` } },
 			{ urlButton: { displayText: `Nomer Owner`, url : `${nomorown}` } },
-			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
+			{ quickReplyButton: { displayText: `ðŸ’° Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Script`, id: `${prefix}sc` } },
 		]
 		const button5 = [
 			{ callButton: { displayText: `Number Owner`, phoneNumber: `${numown}` } },
 			{ urlButton: { displayText: `${namagrup}`, url : `${grup}` } },
-			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
+			{ quickReplyButton: { displayText: `Back To Menu ðŸ”™`, id: `${prefix}menu` } },
 		]
 		const buttonsSewa = [
 			{ urlButton: { displayText: `${namagrup}`, url : `${grup}` } },
@@ -497,7 +497,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		  }
 		}
 if (chats.startsWith("@37258266435")){
-	/*conn.sendMessage(from, { react: { text: `😍`, key: msg.key }})*/
+	/*conn.sendMessage(from, { react: { text: `ðŸ˜`, key: msg.key }})*/
    conn.sendMessage(from, { audio: {url : `https://d.top4top.io/m_22231oj7h1.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
 		if (chats.startsWith("> ") && isOwner) {
@@ -548,7 +548,7 @@ if (chats.startsWith("@37258266435")){
 			  /*conn.sendMessage(from, { audio: fs.readFileSync('audio/Menu.m4a'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})*/
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
 			    
-				/*conn.sendMessage(from, { react: { text: `👋`, key: msg.key }})*/
+				/*conn.sendMessage(from, { react: { text: `ðŸ‘‹`, key: msg.key }})*/
 conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: buttonsMenu, footer: `${footer}`, mentions: [sender] })
 				break
 case prefix+'delete':
@@ -572,13 +572,13 @@ case prefix+'donasi':
 			{ urlButton: { displayText: `Group Izumi Bot`, url : `${grup}` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
-var teks = `  │
-  ├─ ❏ GOPAY
-  ├─ ❏ ${gopay}
-  ├─ ❏ PULSA
-  ├─ ❏ ${pulsa}
-  ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/${insta}
+var teks = `  â”‚
+  â”œâ”€ â GOPAY
+  â”œâ”€ â ${gopay}
+  â”œâ”€ â PULSA
+  â”œâ”€ â ${pulsa}
+  â”œâ”€ â INSTAGRAM
+  â””â”€ â https://www.instagram.com/${insta}
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`
@@ -634,7 +634,7 @@ case prefix+'formatid': // By Christian ID
   reply(`*[ FORMAT FF ]*\n\nID Game = \nNick Game = \nJumlah Diamond = \nPembayaran Via = \n\n*Kirim Formulir Ini Ke ${nomor}*`)
   break
 case prefix+'sc': //By Christian ID
-  var teks = `*── 「 SOURCE CODE 」 ──*
+  var teks = `*â”€â”€ ã€Œ SOURCE CODE ã€ â”€â”€*
 
 *Script : https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg*
 
@@ -646,40 +646,40 @@ _Sc Versi 2 Berpassword Syarat : Subscribe https://youtube.com/channel/UCbetUssi
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: button5, footer: `${footer}`, mentions: [sender] })
 			    break
 case prefix+'rules': //By Christian ID
-  var teks = `*── 「 RULES AND FAQ 」 ──*
+  var teks = `*â”€â”€ ã€Œ RULES AND FAQ ã€ â”€â”€*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
+1. Jangan spam bot. ðŸ™…
+Sanksi: *âŽ WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. Jangan telepon bot. â˜Žï¸
+Sanksi: *âŽ SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
+3. Jangan mengeksploitasi bot.ðŸ˜–
 Sanksi: *PERMANENT BLOCK*
 
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
+ðŸ—¯ï¸ Bot tidak atau lambat merespon ?
+âž¡ï¸ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rulesâ€¼ï¸
 
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
+ðŸ—¯ï¸ Dimana saya bisa mendapatkan Script dari bot ini ?
+âž¡ï¸ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
 
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
+ðŸ—¯ï¸ Prefixnya apa ya?
+âž¡ï¸ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
 
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+ðŸ—¯ï¸ Kak, kok syaa chat owner tidak direspon?
+âž¡ï¸ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
 
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Izumi Bot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*)
+âš ï¸ Segala kebijakan dan ketentuan Izumi Bot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*ï¹*)
 
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Izumi Bot
-😖🙏`
+ðŸ˜–ðŸ™`
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/rules.jpg') }, templateButtons: button5, footer: 'PATUHI RULES YANG ADA JANGAN LANGGAR RULES NYA JIKA MELANGGAR ADA AKIBAT NYA', mentions: [sender] })
 			    break
 case prefix+'sewabot': //By Christian ID
-  var teks = `*── 「 SEWA BOT 」 ──*
+  var teks = `*â”€â”€ ã€Œ SEWA BOT ã€ â”€â”€*
 
 *Harga Sewa*
 7 Hari = ${tujuhhari}
@@ -697,16 +697,16 @@ Permanen = ${permanen}
 
 *_Untuk Konfirmasi Saldo Hubungi Owner Silakan Klick Link Di Bawah_*
 *_${nomor}_*`
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/sewa.jpg') }, templateButtons: buttonsSewa, footer: `© Sewa Bot ${nameown}`, mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/sewa.jpg') }, templateButtons: buttonsSewa, footer: `Â© Sewa Bot ${nameown}`, mentions: [sender] })
 			    break
 case prefix+'runtime':
 case prefix+'tes':
-  var teks = `*── 「 TES STATUS BOT 」 ──*
+  var teks = `*â”€â”€ ã€Œ TES STATUS BOT ã€ â”€â”€*
 
 
 *[ STATUS BOT ONLINE ]*
 *_Runtime : ${runtime(process.uptime())}_*`
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/tes.jpg') }, templateButtons: buttonsSewa, footer: `© Bot By ${nameown}`, mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/tes.jpg') }, templateButtons: buttonsSewa, footer: `Â© Bot By ${nameown}`, mentions: [sender] })
 			    break
 case prefix+'claim': //By Christian ID
   var htgm = randomNomor(500, 550)
@@ -748,18 +748,18 @@ conn.sendMessage(from, {caption: caption, location: fs.readFileSync('media/chris
 break
 			/*case prefix+'donate':
 			case prefix+'donasi':
-			    reply(`◪ DONASI
-  │
-  ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
-  ├─ ❏ OVO
-  ├─ ❏ 088213292687
-  ├─ ❏ PULSA
-  ├─ ❏ 081319944917
-  ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
-  ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/chris.tianid
+			    reply(`â—ª DONASI
+  â”‚
+  â”œâ”€ â GOPAY
+  â”œâ”€ â 089516353968
+  â”œâ”€ â OVO
+  â”œâ”€ â 089516353968
+  â”œâ”€ â PULSA
+  â”œâ”€ â 089516353968
+  â”œâ”€ â PULSA2
+  â”œâ”€ â 089516353968
+  â”œâ”€ â INSTAGRAM
+  â””â”€ â https://www.instagram.com/xzdk.m
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
@@ -770,8 +770,8 @@ break
 			    }
 			    /*conn.sendMessage(from, { audio: {url : `https://b.top4top.io/m_2223iin241.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})*/
 			    var owncuy = [
-			{ quickReplyButton: { displayText: `♨️ Instagram`, id: `${prefix}igowner` } },
-			{ quickReplyButton: { displayText: `🌐 Github`, id: `${prefix}githubown` } },
+			{ quickReplyButton: { displayText: `â™¨ï¸ Instagram`, id: `${prefix}igowner` } },
+			{ quickReplyButton: { displayText: `ðŸŒ Github`, id: `${prefix}githubown` } },
 		]
 		conn.sendMessage(from, {text: `Ingin bertanya tanya tentang apa?`, templateButtons: owncuy, footer: `My Name : ${nameowner}`, mentions: [sender]} )
 			    break
@@ -958,7 +958,7 @@ case prefix+'ytmp4': case prefix+'mp4':
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 			    xfar.Youtube(args[1]).then( data => {
-			      //var teks = `*Youtube Video Downloader*\n\n*≻ Title :* ${data.title}\n*≻ Quality :* ${data.medias[1].quality}\n*≻ Size :* ${data.medias[1].formattedSize}\n*≻ Url Source :* ${data.url}`
+			      //var teks = `*Youtube Video Downloader*\n\n*â‰» Title :* ${data.title}\n*â‰» Quality :* ${data.medias[1].quality}\n*â‰» Size :* ${data.medias[1].formattedSize}\n*â‰» Url Source :* ${data.url}`
 			      var teks = `Succes`
 			      conn.sendMessage(from, { video: { url: data.medias[1].url }, caption: teks }, { quoted: msg })
 			      limitAdd(sender, limit)
@@ -971,7 +971,7 @@ case prefix+'ytmp4': case prefix+'mp4':
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 			    xfar.Youtube(args[1]).then( data => {
-			      var teks = `*Youtube Audio Downloader*\n\n*≻ Title :* ${data.title}\n*≻ Quality :* ${data.medias[7].quality}\n*≻ Size :* ${data.medias[7].formattedSize}\n*≻ Url Source :* ${data.url}\n\n_wait a minute sending media..._`
+			      var teks = `*Youtube Audio Downloader*\n\n*â‰» Title :* ${data.title}\n*â‰» Quality :* ${data.medias[7].quality}\n*â‰» Size :* ${data.medias[7].formattedSize}\n*â‰» Url Source :* ${data.url}\n\n_wait a minute sending media..._`
 			      conn.sendMessage(from, { audio: { url: data.medias[7].url }, mimetype: 'audio/mp4' }, { quoted: msg })
 			      limitAdd(sender, limit)
 				}).catch(() => reply(mess.error.api))
@@ -985,7 +985,7 @@ case prefix+'ytmp3':
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 				y2mateA(q).then( data => {
-					var capt = `📛 *Title :* ${data[0].judul}\n🔰 *Size Audio :* ${data[0].size}\n\n_Tunggu sebentar audio akan di kirim...._`
+					var capt = `ðŸ“› *Title :* ${data[0].judul}\nðŸ”° *Size Audio :* ${data[0].size}\n\n_Tunggu sebentar audio akan di kirim...._`
 					conn.sendMessage(from, {caption: capt, image: {url: data[0].thumb}}, {quoted: msg}) 
 					
 					conn.sendMessage(from, { document: { url: data[0].link }, fileName: `${data[0].judul}.mp3`, mimetype: 'audio/mp3' }, { quoted: msg })
@@ -1000,7 +1000,7 @@ limitAdd(sender, limit)
 			    if (!args[1].includes('youtu.be') && !args[1].includes('youtube.com')) return reply(mess.error.Iv)
 			    reply(mess.wait)
 				y2mateA(q).then( data => {
-					var capt = `📛 *Title :* ${data[0].judul}\n🔰 *Size Video :* ${data[0].size}\n⤵️ *Download :* ${data[0].link}\n\n_Tunggu sebentar audio akan di kirim...._`
+					var capt = `ðŸ“› *Title :* ${data[0].judul}\nðŸ”° *Size Video :* ${data[0].size}\nâ¤µï¸ *Download :* ${data[0].link}\n\n_Tunggu sebentar audio akan di kirim...._`
 					conn.sendMessage(from, {caption: capt, image: {url: data[0].thumb}}, {quoted: msg}) 
 					
 					conn.sendMessage(from, {audio: {url: data[0].link}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
@@ -1022,7 +1022,7 @@ limitAdd(sender, limit)
                 if (args[1] > arrey.length) return reply(`Urutan Hasil *${prefix}ytsearch* Hanya Sampai *${arrey.length}*`)
 			    reply(mess.wait)
 			    xfar.Youtube(`https://youtube.com/watch?v=${arrey[args[1] -1]}`).then( data => {
-			      var teks = `*Youtube Video Downloader*\n\n*≻ Title :* ${data.title}\n*≻ Quality :* ${data.medias[1].quality}\n*≻ Size :* ${data.medias[1].formattedSize}\n*≻ Url Source :* ${data.url}\n\n_wait a minute sending media..._`
+			      var teks = `*Youtube Video Downloader*\n\n*â‰» Title :* ${data.title}\n*â‰» Quality :* ${data.medias[1].quality}\n*â‰» Size :* ${data.medias[1].formattedSize}\n*â‰» Url Source :* ${data.url}\n\n_wait a minute sending media..._`
 			      conn.sendMessage(from, { video: { url: data.medias[1].url }, caption: teks }, { quoted: msg })
 			       limitAdd(sender, limit)
 				}).catch(() => reply(mess.error.api))
@@ -1040,7 +1040,7 @@ limitAdd(sender, limit)
                 if (args[1] > arrey.length) return reply(`Urutan Hasil *${prefix}ytsearch* Hanya Sampai *${arrey.length}*`)
 			    reply(mess.wait)
 			    y2mateA(`https://youtube.com/watch?v=${arrey[args[1] -1]}`).then( data => {
-			      var teks = `*Youtube Audio Downloader*\n\n*≻ Title :* ${data[0].judul}\n*≻ Quality :* ${data[0].quality}\n*≻ Size :* ${data.medias[0].size}\n\n_wait a minute sending media..._`
+			      var teks = `*Youtube Audio Downloader*\n\n*â‰» Title :* ${data[0].judul}\n*â‰» Quality :* ${data[0].quality}\n*â‰» Size :* ${data.medias[0].size}\n\n_wait a minute sending media..._`
 			      conn.sendMessage(from, { image: { url: data[0].thumbnail }, caption: teks }, { quoted: msg })
 			      conn.sendMessage(from, { document: { url: data[0].link }, fileName: `${data[0].judul}.mp3`, mimetype: 'audio/mp3' }, { quoted: msg })
 			      limitAdd(sender, limit)
@@ -1152,7 +1152,7 @@ case prefix+'bc': case prefix+'broadcast':
 			var kotes = JSON.parse(fs.readFileSync('./fitur/katagalau.json'))
 var hasil = pickRandom(kotes)
 var quot = [
-			{ quickReplyButton: { displayText: `Next Kata Galau ➡️`, id: `${prefix}katagalau` } },
+			{ quickReplyButton: { displayText: `Next Kata Galau âž¡ï¸`, id: `${prefix}katagalau` } },
 		]
 		conn.sendMessage(from, {text: hasil, templateButtons: quot, footer: 'Galau Mulu', mentions: [sender]} )
 		limitAdd(sender, limit)
@@ -1164,7 +1164,7 @@ case prefix+'quotes':
 			var kotes2 = JSON.parse(fs.readFileSync('./fitur/quotes.json'))
 var hasil = pickRandom(kotes2)
 var quot = [
-			{ quickReplyButton: { displayText: `Next Quotes ➡️`, id: `${prefix}quote` } },
+			{ quickReplyButton: { displayText: `Next Quotes âž¡ï¸`, id: `${prefix}quote` } },
 		]
 		
 		conn.sendMessage(from, {text: hasil.quotes, templateButtons: quot, footer: `~ ${hasil.author}`, mentions: [sender]} )
@@ -1364,7 +1364,7 @@ case prefix+'husbu':
  Untuk mengambil Audio/Video dari hasil pencarian`
                 for (let i = 0; i < jumlah; i++) {
 				  no += 1
-				  txt += `\n─────────────────\n\n*No Urutan : ${no.toString()}*\n*▢ Judul :* ${yt[i].title}\n*▢ ID :* ${yt[i].videoId}\n*▢ Channel :* ${yt[i].author.name}\n*▢ Upload :* ${yt[i].ago}\n*▢ Ditonton :* ${yt[i].views}\n*▢ Duration :* ${yt[i].timestamp}\n*▢ URL :* ${yt[i].url}\n`
+				  txt += `\nâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\n\n*No Urutan : ${no.toString()}*\n*â–¢ Judul :* ${yt[i].title}\n*â–¢ ID :* ${yt[i].videoId}\n*â–¢ Channel :* ${yt[i].author.name}\n*â–¢ Upload :* ${yt[i].ago}\n*â–¢ Ditonton :* ${yt[i].views}\n*â–¢ Duration :* ${yt[i].timestamp}\n*â–¢ URL :* ${yt[i].url}\n`
 				}
 				conn.sendMessage(from, { image: { url: yt[0].image }, caption: txt }, { quoted: msg })
 				limitAdd(sender, limit)
@@ -1374,7 +1374,7 @@ case prefix+'husbu':
 case prefix+'report':
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
         if (args.length < 2) return reply(`Kirim perintah ${command} laporan`)
-        reply(`Sukses Kirim Ke Owner, Main² banned!`)
+        reply(`Sukses Kirim Ke Owner, MainÂ² banned!`)
         for (let i of ownerNumber) {
             conn.reply(i, `*[ USER REPORTS ]*\nThe Message : ${q}`, msg)
         }
@@ -1435,7 +1435,7 @@ break
 //game & fun menu
 //suit menu
 case prefix+'suit':
-  var but = [{buttonId: `#sbatu`, buttonText: { displayText: "Batu ✊" }, type: 1 }, {buttonId: `#sgunting`, buttonText: { displayText: "Gunting ✌️" }, type: 1 }, {buttonId: `#skertas`, buttonText: { displayText: "Kertas ✋" }, type: 1 }]
+  var but = [{buttonId: `#sbatu`, buttonText: { displayText: "Batu âœŠ" }, type: 1 }, {buttonId: `#sgunting`, buttonText: { displayText: "Gunting âœŒï¸" }, type: 1 }, {buttonId: `#skertas`, buttonText: { displayText: "Kertas âœ‹" }, type: 1 }]
   var sutit = `*[ GAME SUIT ]*\n\nNOTE : *KAMU MEMILIKI 3 BUTTON DAN 3 KESEMPATAN UNTUK MEMILIH ANTARA BATU GUNTING KERTAS*\n*JIKA KAMU MEMENANGKAN 3 KESEMPATAN PERMAINAN BATU GUNTING KERTAS*\n*KAMU MENANG!!*`
 conn.sendMessage(from, { text: sutit, buttons: but, footer: "Pilih Button Di Bawah\n\n- _Jika Kamu Pakai WhatsApp Mod Langsung Saja Ketik #sgunting, #sbatu, #skertas_", templateButtons: but }, {quoted: msg})
 break
@@ -1467,85 +1467,85 @@ break
 case prefix+'slot':
   if (isGame(sender, isOwner, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
   const pepekk = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🥑 : 🥑 : 🥑 Win👑',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🌶️ : 🌶️ : 🌶️ Win👑',
-        '🍋 : 🍋 : 🍋 Win👑',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔',
-        '🍌 : 🍌 : 🍌 Win👑'
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //Arasya
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ¥‘ : ðŸ¥‘ : ðŸ¥‘ WinðŸ‘‘',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸŒ¶ï¸ : ðŸŒ¶ï¸ : ðŸŒ¶ï¸ WinðŸ‘‘',
+        'ðŸ‹ : ðŸ‹ : ðŸ‹ WinðŸ‘‘',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””',
+        'ðŸŒ : ðŸŒ : ðŸŒ WinðŸ‘‘'
         ]
   const kalah = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔',
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //Arasya
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””',
         ]
  const kalah2 = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔',
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //Arasya
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””',
         ]
         const selot = pepekk[Math.floor(Math.random() * pepekk.length)]
         const kalahnya = kalah[Math.floor(Math.random() * kalah.length)]
         const kalahnya2 = kalah2[Math.floor(Math.random() * kalah2.length)]
-        var slotnya = `*[ 🎰 GAME SLOT 🎰 ]*
+        var slotnya = `*[ ðŸŽ° GAME SLOT ðŸŽ° ]*
 
 ${kalahnya}
 ${selot}
 ${kalahnya2}
 
 Note : Jika Kamu Mendapatkan Item Yang Sama, Kamu Menang!!!
-Contoh : 🔔 : 🔔 : 🔔`
+Contoh : ðŸ”” : ðŸ”” : ðŸ””`
         var but = [{buttonId: `${command}`, buttonText: { displayText: "Kembali Slot" }, type: 1 }]
-conn.sendMessage(from, { text: slotnya, buttons: but, footer: "© Slot By Christian\n@chris.tianid", templateButtons: but }, {quoted: msg})
+conn.sendMessage(from, { text: slotnya, buttons: but, footer: "Â© Slot By Christian\n@chris.tianid", templateButtons: but }, {quoted: msg})
 gameAdd(sender, glimit)
         break
 case prefix+'cekme':
   case prefix+'me':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-  const ganteng = ['Cakep ✔️','Jelek Anjrit ❌']
+  const ganteng = ['Cakep âœ”ï¸','Jelek Anjrit âŒ']
   const sifat = ['Pembohong','Galak','Suka Bantu Orang','Baik','Jahat:(','Bobrok','Suka BadMood','Setia','Tulus','Beriman','Penyayang Binatang','Baperan']
   const suka = ['Makan','Tidur','Main Game','Sesama Jenis','Binatang',`Seseorang Yang ${pushname} Sukai`,'Belajar','Ibadah','Diri Sendiri']
   const nomernyah = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','31','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','82','84','84','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1674,7 +1674,7 @@ case prefix+'cekbapak': // By Christian ID
 						hadiah: hadiah,
                         penantang: sender,
                         ditantang: mentionByTag[0],
-                        TicTacToe: ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣']
+                        TicTacToe: ['1ï¸âƒ£','2ï¸âƒ£','3ï¸âƒ£','4ï¸âƒ£','5ï¸âƒ£','6ï¸âƒ£','7ï¸âƒ£','8ï¸âƒ£','9ï¸âƒ£']
                      })
 					 gameAdd(sender, glimit)
                 } else {
@@ -2016,7 +2016,7 @@ case prefix+'antiwamea':
 			// Bank & Payment Menu
 			case prefix+'topbalance':{
                 balance.sort((a, b) => (a.balance < b.balance) ? 1 : -1)
-                let top = '*── 「 TOP BALANCE 」 ──*\n\n'
+                let top = '*â”€â”€ ã€Œ TOP BALANCE ã€ â”€â”€*\n\n'
                 let arrTop = []
 				var total = 20
 				if (balance.length < 10) total = balance.length
@@ -2111,7 +2111,7 @@ case prefix+'ssdesktop':
 case prefix+'nuliskanan':
   var kanan = chats.slice(11)
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\n⚠️ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
+  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\nâš ï¸ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
   reply(mess.wait)
   conn.sendMessage(from, { image: { url: `https://hadi-api.herokuapp.com/api/canvas/nulis?text=${kanan}`}})
   limitAdd(sender, limit)
@@ -2119,7 +2119,7 @@ case prefix+'nuliskanan':
 case prefix+'foliokiri':
   var fkiri = chats.slice(10)
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
-  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\n⚠️ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
+  if (args.length < 2) return reply(`Kirim Perintah ${command} Tulisan Mu\nContoh ${command} Izumi Ganteng\n\nâš ï¸ *NOTE : GAK BOLEH DI TAMBAHIN EMOJI/TEXT TEXT GAK JELAS*`)
   reply(mess.wait)
   conn.sendMessage(from, { image: { url: `https://hadi-api.herokuapp.com/api/canvas/nulis2?text=${fkiri}`}})
   limitAdd(sender, limit)
@@ -2128,7 +2128,7 @@ case prefix+'nulis':
   case prefix+'tulis':
     case prefix+'menulis':
 reply(`*[ COMMAND NOT FOUND ]*
-Command Salah ❌
+Command Salah âŒ
 Silahkan Pilih Type Buku/Folio Berikut
 
 - ${prefix}foliokiri <Text>
@@ -2773,7 +2773,7 @@ case prefix+'igstalk':
     if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
     if (args.length < 2) return reply(`Kirim perintah ${command} Username\nContoh : ${command} chris.tianid`)
     var data = await fetchJson(`https://hardianto.xyz/api/igstalk?username=${q}&apikey=hardianto`)
-    var caption = `*[ INSTAGRAM STALK ]*\n\n👤Username : ${data.username}\n📛 Full Name : ${data.fullname}\n✔️ Verified : ${data.verified}\n👥 Followers : ${data.followers}\n🫂 Following : ${data.follow}\n🗣️ Kategori ${data.category}\n\n${readmore} *� Izumi Bot*`
+    var caption = `*[ INSTAGRAM STALK ]*\n\nðŸ‘¤Username : ${data.username}\nðŸ“› Full Name : ${data.fullname}\nâœ”ï¸ Verified : ${data.verified}\nðŸ‘¥ Followers : ${data.followers}\nðŸ«‚ Following : ${data.follow}\nðŸ—£ï¸ Kategori ${data.category}\n\n${readmore} *© Izumi Bot*`
     conn.sendMessage(from, {caption: caption, image: {url: data.thumbnail}}, {quoted: msg})
     limitAdd(sender, limit)
     break
@@ -3019,7 +3019,7 @@ case prefix+'gombal':
 if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
 var hasil = pickRandom(gombal)
 var gom = [
-			{ quickReplyButton: { displayText: `Next Gombalan ➡️`, id: `${command}` } },
+			{ quickReplyButton: { displayText: `Next Gombalan âž¡ï¸`, id: `${command}` } },
 		]
 		conn.sendMessage(from, {text: hasil, templateButtons: gom, footer: `Cie Di Gombal Robot\n~ Instagram : @chris.tianid`, mentions: [sender]} )
 limitAdd(sender, limit)
@@ -3037,7 +3037,7 @@ case prefix+'lirik':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
   reply(mess.wait)
   lirikLagu(q).then ( data => {
-    var caption = `*[ > 🎵 LIRIK LAGU 🎵 < ]*\n\n*Lirik :* ${data[0].result}`
+    var caption = `*[ > ðŸŽµ LIRIK LAGU ðŸŽµ < ]*\n\n*Lirik :* ${data[0].result}`
     conn.sendMessage(from, {text: caption}, {quoted: msg})
     limitAdd(sender, limit)
   }).catch(() => reply(`Lagu ${q} Tidak Di Temukan`))
