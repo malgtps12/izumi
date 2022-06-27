@@ -20,6 +20,7 @@ THANKS TO
 - Febri
 - Jojo
 - Christian ID
+- Mall
 
 Terimakasih*/
 "use strict";
